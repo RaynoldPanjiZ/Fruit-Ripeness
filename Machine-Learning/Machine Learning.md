@@ -1,2 +1,0 @@
-# Machine Learning
-on this project we using CNN algorithm to create a model that scanning image that took from android and using imagae-clasification to go thought the image and set the output for the images
