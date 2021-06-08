@@ -16,4 +16,5 @@ From the [Fruits 360](https://www.kaggle.com/moltean/fruits) we use 5 classes:
 - Grape Blue
 - Orange
 - Watermelon
+
 this [link](https://drive.google.com/drive/folders/1ldTHvDYcbaD6uJ9uFuk1H1d_aSBBpdeW?usp=sharing) for the datatset on this project
