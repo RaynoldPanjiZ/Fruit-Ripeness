@@ -17,6 +17,9 @@ def ml_backend(event, context):
     x = image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
     images = np.vstack([x])
+    
+    model = load_model('gs://capstone_b21-cap0293/deploy/rps.h5')
+    model.compile(loss = 'categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
     classes = model.predict(images, batch_size=10)
     if(classes.toString() == '[[1. 0. 0. 0. 0. 0.]]'):
       return 'mangga'
