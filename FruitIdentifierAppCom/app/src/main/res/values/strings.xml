@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FruitIdentifierAppCom</string>
+    <string name="scanner">Scanner</string>
+    <string name="fruit">Fruit</string>
+    <string name="name">Name Fruit</string>
+    <string name="benefit">Benefit</string>
+    <string name="image">Image</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="description">Description</string>
+    <string name="maturity">Maturity</string>
+    <string name="source">Source</string>
+</resources>
