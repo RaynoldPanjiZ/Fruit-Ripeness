@@ -1,0 +1,3 @@
+## Machine Learning
+The result is that we succeeded in predicting 5 pieces using the CNN model with 4 layers of convolution using image recognition method and deployment with a training on cloud and deployment on the android.
+The next plan for this project is to increase the number of datasets and fruit that will be predicted. As for the steps that will be taken by creating our own dataset by scraping the data from the fruit maturity level so that we can use the object detection and OpenCV methods with bounding boxes in the deployment. As for our group, we plan to use additional devices for deployment such as Nvidia Jetson with additional cameras as output to increase user options

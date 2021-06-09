@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="">
+
+        <ImageView
+            android:id="@+id/image_fruit"
+            android:layout_width="176dp"
+            android:layout_height="209dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/fruit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Name Fruit" />
+
+        <TextView
+            android:id="@+id/t_benefit"
+            android:layout_width="68dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:padding="4dp"
+            android:text="@string/benefit"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_source" />
+
+        <TextView
+            android:id="@+id/item_benefit"
+            android:layout_width="191dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:paddingStart="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_benefit"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/t_nutrition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="132dp"
+            android:layout_marginLeft="132dp"
+            android:layout_marginTop="23dp"
+            android:padding="4dp"
+            android:text="@string/nutrition"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/t_benefit"
+            app:layout_constraintTop_toBottomOf="@+id/image_fruit" />
+
+        <TextView
+            android:id="@+id/item_nutrition"
+            android:layout_width="177dp"
+            android:layout_height="104dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:paddingStart="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/item_maturity"
+            app:layout_constraintTop_toBottomOf="@+id/t_nutrition"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/t_maturity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:padding="4dp"
+            android:text="@string/maturity"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_benefit" />
+
+        <TextView
+            android:id="@+id/item_maturity"
+            android:layout_width="172dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="2dp"
+            android:padding="4dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_maturity"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/t_description"
+            android:layout_width="89dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:padding="4dp"
+            android:text="@string/description"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_maturity" />
+
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="365dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:justificationMode="inter_word"
+            android:padding="4dp"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/t_description"
+            tools:targetApi="o"
+            tools:text="Overview" />
+
+        <TextView
+            android:id="@+id/t_source"
+            android:layout_width="69dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:padding="4dp"
+            android:text="@string/source"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_name"
+            tools:text="Source" />
+
+        <TextView
+            android:id="@+id/item_source"
+            android:layout_width="179dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:justificationMode="inter_word"
+            android:padding="4dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/image_fruit"
+            app:layout_constraintStart_toStartOf="@+id/t_source"
+            app:layout_constraintTop_toBottomOf="@+id/t_source"
+            tools:targetApi="o" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
