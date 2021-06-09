@@ -1,0 +1,8 @@
+# Function dependencies, for example:
+# package>=version
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
+Pillow==7.1.2
+tensorflow==2.5.0
+google-cloud-storage==1.18.1
+numpy==1.19.5
