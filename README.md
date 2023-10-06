@@ -15,6 +15,8 @@ Our market segmentation is fruit processed consumption, fruit plantation, maerke
 is that we achieved our target that we give an additional references to people or segmented user that is ease and reliable to use.
 Along the way we counter manya chelengged but in the end we managed to completed this capstone project as the result we not fully achieved our target but as the product we want to have a device integrated with the cloud that have same build as the application, just for the scale up
 
+### Pressentation submission
+* PPT : [Final Submition](https://github.com/RaynoldPanjiZ/Fruit-Ripeness/blob/main/presentation/Presentasi(Vid%20%26%20Final).pptx)
 
 ## Nerva Teams B21-CAP0293
 * Android Path
